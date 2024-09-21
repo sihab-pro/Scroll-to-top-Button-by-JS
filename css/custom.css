@@ -1,0 +1,32 @@
+
+body{
+    margin:0 auto;
+    padding:0;
+    width:100%;
+    background-color: antiquewhite;
+    padding:0;
+}
+.container{
+    padding:2% 12%;
+}
+
+.scroll-to-top{
+    position:fixed;
+    right:25px;
+    bottom:50px;
+    z-index:99999999;
+    display: none;
+}
+
+.scroll-to-top a{
+    text-decoration: none;
+    padding:8px 15px;
+    background-color: rgb(0, 0, 0);
+    border-radius:5px;
+    border:1px solid #b9b8b894;
+   
+}
+
+.scroll-to-top a i{
+    color:#ffffff;
+}
